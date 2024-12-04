@@ -55,9 +55,14 @@ while con:
     
     if choice == "1":
         while True:
-            act_num = input("\nSelect activity to open (Enter 0 to return to main menu): ")
+            print("0 - Return to the main menu")
+            print("1 - Print function")
+            print("2 - ")
+            act_num = input("\nSelect activity to open:")
             
             if act_num == "1":
+                print("This is our activity 1")
+                print("=========================")
                 activity1()
             elif act_num == "2":
                 activity2()
