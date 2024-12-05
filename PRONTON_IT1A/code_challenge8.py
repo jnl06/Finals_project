@@ -1,16 +1,10 @@
-prelim = eval(input("Enter your prelim grade: "))
-midterm = eval(input("Enter your midterm grade: "))
-semifinal = eval(input("Enter your semifinal grade: "))
-final = eval(input("Enter yur score on final exam: "))
-quiz = eval(input("Enter your score on quiz: "))
-project = eval(input("Enter your score on project: "))
+def code_chal8():
+    n1 = 0
+    print(f"Enter 10 number\n-------------------\n ")
 
-final_grade = (prelim * 0.15) + (midterm * 0.15) +(semifinal * 0.15) + (final * 0.15) + (quiz * 0.25) + (project * 0.15)
-
-print(f"Your final grade is {final_grade}")
-
-if final_grade >= 75 :
-	print("Congratulations! You passed the course")
-
-else :
-	print("Sorry, you failed")
+    for i in range(1, 11):
+        n2 = eval(input(f"Enter a number {i}: "))
+        n1 += n2
+    
+  
+    print(f"The total of the numbers you entered is {n1}")

@@ -1,9 +1,7 @@
-print("Enter 10 number \n------------------\n ")
-
-n1 = 0
-
-for i in range(1, 11):
-    n2 = eval(input(f"Enter a number {i}: "))
-    n1 += n2
-
-print(f"\nThe total of the number you entered is {n1} ")    
+def code_chal9():
+    for x in range(0, 11):
+        for y in range(x):
+            print(" ", end = " ")
+        for z in range(x, 11):
+            print("*", end = " ")
+        print()

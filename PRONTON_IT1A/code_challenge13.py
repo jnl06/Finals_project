@@ -1,8 +1,18 @@
-for x in range(4, 0, -1):
-    for y in range(x):
-        print(" ", end=" ")
-    for z in range(1, 5):
-        print(z, end=" ") 
-    for a in range(x, 5):
-        print("^", end=" ")        
-    print()
+def code_chal13():
+    for x in range(1, 6):
+        for y in range(6, x, -1):
+            print(" ", end=" ")
+        for z in range(x, 1, -1):
+            print(z, end=" ")
+        for a in range(1, x+1):
+            print(a, end=" ")    
+        print()
+    
+    for x in range(4, 0, -1):
+        for y in range(5, x-1, -1):
+            print(" ", end=" ")
+        for z in range(x, 1, -1):
+            print(z, end=" ")
+        for a in range(1, x+1):
+            print(a, end=" ")    
+        print()    
