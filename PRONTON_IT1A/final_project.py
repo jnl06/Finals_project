@@ -18,11 +18,13 @@ from activity15 import activity15
 from activity16 import activity16
 from activity17 import activity17
 from activity18 import activity18
-
-#from activity19 import activity19
-#from activity20 import activity20
-#from activity21 import activity21
-#from activity22 import activity22
+from activity19 import activity19
+from activity20 import activity20
+from activity21 import activity21
+from activity22 import activity22
+from activity23 import activity23
+from activity24 import activity24
+from activity25 import activity25
 
 #code challenges
 from code_challenge1 import code_chal1
@@ -55,14 +57,10 @@ while con:
     
     if choice == "1":
         while True:
-            print("0 - Return to the main menu")
-            print("1 - Print function")
-            print("2 - ")
-            act_num = input("\nSelect activity to open:")
+            print("\n0 - Return to the main menu")
+            act_num = input("\nSelect activity to open: ")
             
             if act_num == "1":
-                print("This is our activity 1")
-                print("=========================")
                 activity1()
             elif act_num == "2":
                 activity2()
@@ -98,6 +96,20 @@ while con:
                 activity17()
             elif act_num == "18":
                 activity18()
+            elif act_num == "19":
+                activity19()
+            elif act_num == "20":
+                activity20()
+            elif act_num == "21":
+                activity21()
+            elif act_num == "22":
+                activity22()
+            elif act_num == "23":
+                activity23()
+            elif act_num == "24":
+                activity24()
+            elif act_num == "25":
+                activity25()
             elif act_num == "0":
                 break  # Return to main menu
             else:
@@ -105,7 +117,11 @@ while con:
 
     elif choice == "2":
         while True:
-            chal_num = input("\nSelect code challenge to open (Enter 0 to return to main menu): ")
+            print("\n0 - Return to the main menu")
+            print("1 - Code Challenge 1")
+            print("2 - Code Challenge 2")
+            print("... (Add more challenges as needed)")
+            chal_num = input("\nSelect code challenge to open: ")
             
             if chal_num == "1":
                 code_chal1()
@@ -138,13 +154,13 @@ while con:
             elif chal_num == "16":
                 code_chal16()
             elif chal_num == "0":
-                break 
+                break  
             else:
                 print("Invalid choice. Please try again.")
     
     elif choice == "0":
         print("\nExiting the program. Goodbye!")
-        con = False 
+        con = False  
     
     else:
         print("Invalid choice. Please select again.")
