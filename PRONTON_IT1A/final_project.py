@@ -48,7 +48,7 @@ print("==============================\n")
 
 name = input("Please enter your name: ")
 print("-----------------------------\n")
-print(f"Hello {name}")
+print(f"Hello {name}, welcome to the compilation program")
 
 con = True
 
@@ -58,7 +58,7 @@ while con:
     if choice == "1":
         while True:
             print("\n0 - Return to the main menu")
-            act_num = input("\nSelect activity to open: ")
+            act_num = input("\nSelect one activity to open (1 - 25): ")
             
             if act_num == "1":
                 activity1()
@@ -118,10 +118,7 @@ while con:
     elif choice == "2":
         while True:
             print("\n0 - Return to the main menu")
-            print("1 - Code Challenge 1")
-            print("2 - Code Challenge 2")
-            print("... (Add more challenges as needed)")
-            chal_num = input("\nSelect code challenge to open: ")
+            chal_num = input("\nSelect one code challenge to open (1 - 16): ")
             
             if chal_num == "1":
                 code_chal1()
