@@ -59,59 +59,84 @@ while con:
         while True:
             print("\n0 - Return to the main menu")
             act_num = input("\nSelect one activity to open (1 - 25): ")
-            
+            print()
             if act_num == "1":
+                print("This is Activity 1\n---------------------")
                 activity1()
             elif act_num == "2":
+                print("This is Activity 2\n---------------------")
                 activity2()
             elif act_num == "3":
+                print("This is Activity 3\n---------------------")
                 activity3()
             elif act_num == "4":
+                print("This is Activity 4\n---------------------")
                 activity4()
             elif act_num == "5":
+                print("This is Activity 5\n---------------------")
                 activity5()
             elif act_num == "6":
+                print("This is Activity 6\n---------------------")
                 activity6()
             elif act_num == "7":
+                print("This is Activity 7\n---------------------")
                 activity7()
             elif act_num == "8":
+                print("This is Activity 8\n---------------------")
                 activity8()
             elif act_num == "9":
+                print("This is Activity 9\n---------------------")
                 activity9()
             elif act_num == "10":
+                print("This is Activity 10\n---------------------")
                 activity10()
             elif act_num == "11":
+                print("This is Activity 11\n---------------------")
                 activity11()
             elif act_num == "12":
+                print("This is Activity 12\n---------------------")
                 activity12()
             elif act_num == "13":
+                print("This is Activity 13\n---------------------")
                 activity13()
             elif act_num == "14":
+                print("This is Activity 14\n---------------------")
                 activity14()
             elif act_num == "15":
+                print("This is Activity 15\n---------------------")
                 activity15()
             elif act_num == "16":
+                print("This is Activity 16\n---------------------")
                 activity16()
             elif act_num == "17":
+                print("This is Activity 17\n---------------------")
                 activity17()
             elif act_num == "18":
+                print("This is Activity 18\n---------------------")
                 activity18()
             elif act_num == "19":
+                print("This is Activity 19\n---------------------")
                 activity19()
             elif act_num == "20":
+                print("This is Activity 20\n---------------------")
                 activity20()
             elif act_num == "21":
+                print("This is Activity 21\n---------------------")
                 activity21()
             elif act_num == "22":
+                print("This is Activity 22\n---------------------")
                 activity22()
             elif act_num == "23":
+                print("This is Activity 23\n---------------------")
                 activity23()
             elif act_num == "24":
+                print("This is Activity 24\n---------------------")
                 activity24()
             elif act_num == "25":
+                print("This is Activity 25\n---------------------")
                 activity25()
             elif act_num == "0":
-                break  # Return to main menu
+                break 
             else:
                 print("Invalid choice. Please try again.")
 
@@ -119,36 +144,54 @@ while con:
         while True:
             print("\n0 - Return to the main menu")
             chal_num = input("\nSelect one code challenge to open (1 - 16): ")
-            
+            print()
             if chal_num == "1":
+                print("This is Code Challenge 1\n---------------------")
                 code_chal1()
             elif chal_num == "2":
+                print("This is Code Challenge 2\n---------------------")
                 code_chal2()
+            elif chal_num == "3":
+                print("This is Code Challenge 3\n---------------------")
+                activity3()
             elif chal_num == "4":
+                print("This is Code Challenge 4\n---------------------")
                 code_chal4()
             elif chal_num == "5":
+                print("This is Code Challenge 5\n---------------------")
                 code_chal5()
             elif chal_num == "6":
+                print("This is Code Challenge 6\n---------------------")
                 code_chal6()
             elif chal_num == "7":
+                print("This is Code Challenge 7\n---------------------")
                 code_chal7()
             elif chal_num == "8":
+                print("This is Code Challenge 8\n---------------------")
                 code_chal8()
             elif chal_num == "9":
+                print("This is Code Challenge 9\n---------------------")
                 code_chal9()
             elif chal_num == "10":
+                print("This is Code Challenge 10\n---------------------")
                 code_chal10()
             elif chal_num == "11":
+                print("This is Code Challenge 11\n---------------------")
                 code_chal11()
             elif chal_num == "12":
+                print("This is Code Challenge 12\n---------------------")
                 code_chal12()
             elif chal_num == "13":
+                print("This is Code Challenge 13\n---------------------")
                 code_chal13()
             elif chal_num == "14":
+                print("This is Code Challenge 14\n---------------------")
                 code_chal14()
             elif chal_num == "15":
+                print("This is Code Challenge 15\n---------------------")
                 code_chal15()
             elif chal_num == "16":
+                print("This is Code Challenge 16\n---------------------")
                 code_chal16()
             elif chal_num == "0":
                 break  
